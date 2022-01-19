@@ -1,0 +1,59 @@
+package quiz3;
+import java.util.*;
+
+public class quizarraymethod {
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan= new Scanner(System.in);
+	int selection;
+	int item0, item1, item2, item3, item4; 
+	int[] arr = new int[] {1, 2, 3, 4, 5};
+	int n =0;
+	
+	System.out.println(" - Main Menu -");
+	System.out.println(" The Main Menu is ");
+	System.out.println("1. Accept elemen of an array");
+	System.out.println(" 2. Display element of an array ");
+	System.out.println(" 3. Search the element within array given by user");
+	System.out.println(" Sort the array by using any sort method");
+	
+	System .out.println(" enter your Selection: ");
+	selection = scan.nextInt();
+	
+	switch (selection) {
+	case 1 :
+		System.out.print(" Enter the elemen of array:");
+		item0 = scan.nextInt();
+		item1 = scan.nextInt();
+		item2 = scan.nextInt();
+		item3 = scan.nextInt();
+		item4 = scan.nextInt();
+		break;
+	case 2:
+		
+		 System.out.println(" Element of given array");
+		 for (int i = 0; i < arr.length; i ++) {
+			 System.out.print(arr[i] + "");
+			
+			
+		 }
+	break;
+	case 3:
+		System.out.println(" Enter the element you want to find:");
+		 int x = scan.nextInt();
+		for( int y=0 ; y< n; y++);
+		break;
+	
+		
+	
+	}
+		
+		
+			
+	
+		
+	}
+
+}
